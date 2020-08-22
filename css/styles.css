@@ -1,0 +1,71 @@
+@keyframes in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif; }
+
+p {
+  font-family: 'Roboto', sans-serif; }
+
+.topbar {
+  background-color: #D32F2F;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1rem 2rem; }
+  .topbar__brand-name {
+    text-transform: uppercase;
+    font-size: 3rem;
+    animation: in-left 1s; }
+  .topbar__navigation-list {
+    list-style: none;
+    display: flex;
+    align-items: stretch; }
+  .topbar__navigation--item {
+    font-size: 1.6rem; }
+    .topbar__navigation--item:nth-child(1) {
+      animation: in-left 1.4s; }
+    .topbar__navigation--item:nth-child(2) {
+      animation: in-left 1.8s; }
+    .topbar__navigation--item:nth-child(3) {
+      animation: in-left 2.2s; }
+    .topbar__navigation--item:nth-child(4) {
+      animation: in-left 2.5s; }
+    .topbar__navigation--item:not(:last-child) {
+      margin-right: 2rem; }
+    .topbar__navigation--item-link {
+      display: flex;
+      align-items: stretch; }
+      .topbar__navigation--item-link:link, .topbar__navigation--item-link:visited {
+        text-decoration: none;
+        color: #ebebeb;
+        text-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.4);
+        transition: all .2s; }
+      .topbar__navigation--item-link:hover {
+        color: #fff;
+        text-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.8);
+        transform: translateY(-0.2rem); }
+      .topbar__navigation--item-link:active {
+        transform: translateY(0.1rem); }

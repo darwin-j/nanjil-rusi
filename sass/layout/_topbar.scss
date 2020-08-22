@@ -1,0 +1,88 @@
+.topbar {
+
+    background-color: $color-primary-dark;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 2rem;
+
+
+    &__brand {
+
+        &-name {
+            text-transform: uppercase;
+            font-size: 3rem;
+
+            animation: in-left 1s;
+        }
+
+
+    }
+
+    &__navigation {
+
+
+
+        &-list {
+            list-style: none;
+            display: flex;
+            align-items: stretch;
+
+        }
+
+        &--item {
+
+            font-size: 1.6rem;
+
+            &:nth-child(1) {
+                animation: in-left 1.4s;
+            }
+
+            &:nth-child(2) {
+                animation: in-left 1.8s;
+            }
+
+            &:nth-child(3) {
+                animation: in-left 2.2s;
+            }
+
+            &:nth-child(4) {
+                animation: in-left 2.5s;
+            }
+
+
+
+            &:not(:last-child) {
+                margin-right: 2rem;
+
+            }
+
+
+            &-link {
+                display: flex;
+                align-items: stretch;
+
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                    color: $color-text-grey-light;
+                    text-shadow: 0 .5rem .8rem rgba($color-black, .4);
+                    transition: all .2s;
+                }
+
+                &:hover {
+                    color: $color-white;
+                    text-shadow: 0 .5rem 1.2rem rgba($color-black, .8);
+
+                    transform: translateY(-.2rem);
+                }
+
+                &:active {
+                    transform: translateY(.1rem);
+                }
+
+            }
+        }
+    }
+}
