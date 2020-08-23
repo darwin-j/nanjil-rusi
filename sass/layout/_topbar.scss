@@ -24,16 +24,18 @@
 
 
 
+
         &-list {
             list-style: none;
             display: flex;
             align-items: stretch;
 
+
         }
 
         &--item {
-
             font-size: 1.6rem;
+            font-family: $font-other;
 
             &:nth-child(1) {
                 animation: in-left 1.4s;

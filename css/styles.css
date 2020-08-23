@@ -18,15 +18,15 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Play", sans-serif; }
 
 h1,
 h2,
 h3 {
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Forum", cursive; }
 
 p {
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Play", sans-serif; }
 
 .topbar {
   background-color: #D32F2F;
@@ -44,7 +44,8 @@ p {
     display: flex;
     align-items: stretch; }
   .topbar__navigation--item {
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    font-family: "Play", sans-serif; }
     .topbar__navigation--item:nth-child(1) {
       animation: in-left 1.4s; }
     .topbar__navigation--item:nth-child(2) {
@@ -69,3 +70,16 @@ p {
         transform: translateY(-0.2rem); }
       .topbar__navigation--item-link:active {
         transform: translateY(0.1rem); }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/spon&masala.png);
+  width: 100vw;
+  height: 92vh; }
+  .header__text {
+    font-family: 'Forum', cursive;
+    font-size: 20rem;
+    color: #fff;
+    animation: in-left 2.7s; }

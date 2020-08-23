@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/spon&masala.png);
+    width: 100vw;
+    height: 92vh;
+
+
+    &__text {
+        font-family: 'Forum', cursive;
+        font-size: 20rem;
+        color: $color-white;
+        animation: in-left 2.7s;
+    }
+}
