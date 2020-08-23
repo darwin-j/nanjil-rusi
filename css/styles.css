@@ -52,10 +52,8 @@ p {
       animation: in-left 1.8s; }
     .topbar__navigation--item:nth-child(3) {
       animation: in-left 2.2s; }
-    .topbar__navigation--item:nth-child(4) {
-      animation: in-left 2.5s; }
     .topbar__navigation--item:not(:last-child) {
-      margin-right: 2rem; }
+      margin-right: 3rem; }
     .topbar__navigation--item-link {
       display: flex;
       align-items: stretch; }
@@ -76,10 +74,63 @@ p {
   align-items: center;
   justify-content: center;
   background-image: url(../img/spon&masala.png);
-  width: 100vw;
-  height: 92vh; }
+  width: 98.9vw;
+  height: 92.2vh; }
   .header__text {
     font-family: 'Forum', cursive;
     font-size: 20rem;
     color: #fff;
     animation: in-left 2.7s; }
+
+.menu {
+  height: 100vh;
+  background-color: #F44336;
+  color: #fff; }
+  .menu__heading {
+    font-size: 5rem;
+    text-align: center;
+    padding: 4rem 0; }
+  .menu__card {
+    height: 45rem;
+    width: 30rem;
+    border-radius: 1.2rem;
+    background-color: #ebebeb;
+    color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
+    .menu__card-container {
+      display: flex;
+      justify-content: space-around; }
+    .menu__card-heading {
+      font-size: 3rem;
+      height: 10rem; }
+    .menu__card-list {
+      list-style: none; }
+      .menu__card-list--item {
+        font-size: 2.4rem;
+        text-align: center; }
+        .menu__card-list--item:nth-child(2) {
+          padding-top: 2rem; }
+    .menu__card-button {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .menu__card-button:link, .menu__card-button:visited {
+        font-size: 2rem;
+        text-decoration: none;
+        color: #fff;
+        height: 4rem;
+        width: 16rem;
+        border-radius: .6rem;
+        background-color: #F44336;
+        box-shadow: 0 1rem 2rem rgba(244, 67, 54, 0.4);
+        transform: scale(1);
+        transition: all .2s; }
+      .menu__card-button:hover {
+        transform: translateY(-0.5rem) scale(1.02);
+        box-shadow: 0 1rem 2rem rgba(244, 67, 54, 0.6); }
+      .menu__card-button:active {
+        transform: translateY(0.1rem) scale(1.01); }

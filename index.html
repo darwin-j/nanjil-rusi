@@ -6,25 +6,27 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Forum&family=Play&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
     <title>Nanjil rusi</title>
   </head>
+
   <body>
     <div class="topbar">
       <div class="topbar__brand">
-        <h1 class="topbar__brand-name">Nanjil rusi</h1>
+        <h1 class="topbar__brand-name">
+          <span class="topbar__brand-logo"
+            ><img src="img/logo.png" alt=""
+          /></span>
+          Nanjil rusi
+        </h1>
       </div>
       <div class="topbar__navigation">
         <ul class="topbar__navigation-list">
           <li class="topbar__navigation--item">
-            <a href="#" class="topbar__navigation--item-link">Home</a>
+            <a href="#menu" class="topbar__navigation--item-link">Menu </a>
           </li>
           <li class="topbar__navigation--item">
-            <a href="#" class="topbar__navigation--item-link">About</a>
-          </li>
-          <li class="topbar__navigation--item">
-            <a href="#" class="topbar__navigation--item-link">Menu</a>
+            <a href="#" class="topbar__navigation--item-link">Order</a>
           </li>
           <li class="topbar__navigation--item">
             <a href="#" class="topbar__navigation--item-link">Contact</a>
@@ -33,9 +35,59 @@
       </div>
     </div>
     <header class="header">
-      <div class="header__text">
-        NANJIL RUSI
-      </div>
+      <div class="header__text">NANJIL RUSI</div>
     </header>
+    <main>
+      <div class="menu" id="menu">
+        <div class="menu__heading">
+          <h1>Menu</h1>
+        </div>
+        <div class="menu__card-container">
+          <div class="menu__card">
+            <div class="menu__card-heading">
+              <h1>Break fast</h1>
+            </div>
+            <ul class="menu__card-list">
+              <li class="menu__card-list--item">
+                Hot drinks
+              </li>
+              <li class="menu__card-list--item">
+                indian dishes
+              </li>
+            </ul>
+
+            <a href="#" class="menu__card-button">See menu</a>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-heading">
+              <h1>Lunch</h1>
+            </div>
+            <ul class="menu__card-list">
+              <li class="menu__card-list--item">
+                Hot drinks
+              </li>
+              <li class="menu__card-list--item">
+                wow foods
+              </li>
+            </ul>
+            <a href="#" class="menu__card-button">See menu</a>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-heading">
+              <h1>Dinner</h1>
+            </div>
+            <ul class="menu__card-list">
+              <li class="menu__card-list--item">
+                Hot drinks
+              </li>
+              <li class="menu__card-list--item">
+                awosome dishes
+              </li>
+            </ul>
+            <a href="#" class="menu__card-button">See menu</a>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

@@ -18,6 +18,7 @@
         }
 
 
+
     }
 
     &__navigation {
@@ -49,14 +50,14 @@
                 animation: in-left 2.2s;
             }
 
-            &:nth-child(4) {
-                animation: in-left 2.5s;
-            }
+
+
+
 
 
 
             &:not(:last-child) {
-                margin-right: 2rem;
+                margin-right: 3rem;
 
             }
 
