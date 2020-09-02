@@ -258,3 +258,48 @@ p {
       background-color: #83b848; }
     .order__linklist-link:active {
       transform: translateY(0.2rem); }
+
+.footer {
+  height: 40vh;
+  padding: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer__text {
+    font-size: 5rem;
+    margin-bottom: 4rem; }
+  .footer__list {
+    list-style: none;
+    display: flex; }
+    .footer__list-item:not(:first-child) {
+      margin-left: 6rem; }
+    .footer__list-item--link:visited, .footer__list-item--link:link {
+      display: relative;
+      font-size: 3.5rem;
+      text-decoration: none;
+      color: #F44336;
+      transition: all .1s; }
+    .footer__list-item--link:hover {
+      color: #D32F2F;
+      transform: translateY(-0.2rem); }
+    .footer__list-item--icon {
+      transition: all .2s; }
+      .footer__list-item--icon:hover {
+        transform: translateY(-0.2rem);
+        text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .footer__aboutus {
+    width: 20vw; }
+    .footer__aboutus-heading {
+      padding-bottom: 1rem;
+      font-size: 3rem; }
+    .footer__aboutus-text {
+      font-size: 2rem; }
+
+.copyright__dev-text {
+  padding-top: 2rem;
+  font-size: 2rem; }
+
+.copyright__company-text {
+  font-size: 2rem;
+  text-align: center;
+  color: #d4d4d4; }

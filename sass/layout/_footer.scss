@@ -1,0 +1,86 @@
+.footer {
+    height: 40vh;
+    padding: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__left {}
+
+    &__text {
+        font-size: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+
+
+
+        &-item {
+
+            &:not(:first-child) {
+                margin-left: 6rem;
+            }
+
+            &--link {
+
+                &:visited,
+                &:link {
+                    display: relative;
+                    font-size: 3.5rem;
+                    text-decoration: none;
+                    color: $color-primary;
+
+                    transition: all .1s;
+                }
+
+                &:hover {
+                    color: $color-primary-dark;
+                    transform: translateY(-.2rem);
+                }
+            }
+
+            &--icon {
+                transition: all .2s;
+
+                &:hover {
+
+                    transform: translateY(-.2rem);
+                    text-shadow: 0 .5rem 1rem rgba($color: #000000, $alpha: .2);
+                }
+            }
+        }
+    }
+
+    &__right {}
+
+    &__aboutus {
+        width: 20vw;
+
+        &-heading {
+            padding-bottom: 1rem;
+            font-size: 3rem;
+        }
+
+        &-text {
+            font-size: 2rem;
+        }
+    }
+
+
+}
+
+.copyright {
+    &__dev-text {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    &__company-text {
+        font-size: 2rem;
+        text-align: center;
+        color: $color-text-grey;
+    }
+}
